@@ -3,9 +3,13 @@ html {
     padding: 0;
 }
 body {
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     font-family: times new roman, cursive;
-    font-size: 25pt;
-    background-color: #efefef;
+    font-size: 18pt;
+    /* background-color: #efefef; */
     padding: 10px;
     margin: 0;
 }
@@ -168,6 +172,22 @@ input, textarea {
     text-align: right;
     padding-bottom: 10px;
     color: grey;
+}
+
+.educationArea{
+display: flex;
+flex-direction: column;
+}
+
+.education{
+ display: flex;
+ flex-direction:row;
+ width: 100%;
+ justify-content:space-between;
+}
+
+.mt-10{
+    margin-top: 10px;
 }
 
 @media(max-width: 750px)
