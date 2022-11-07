@@ -1,0 +1,26 @@
+{
+  "name": "shivansh-patel-portfolio",
+  "version": "1.0.0",
+  "description": "this is shivansh official portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind-server": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisshivanshpatel/Shivansh-Patel-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "shivansh patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisshivanshpatel/Shivansh-Patel-Portfolio/issues"
+  },
+  "homepage": "https://github.com/thisisshivanshpatel/Shivansh-Patel-Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  }
+}
