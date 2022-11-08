@@ -36,14 +36,14 @@ p {
 .img-circle {
     border: 5px solid white;
     border-radius: 50%;
-    
 } 
 .section {
-    background-color: #fff;
+    background-color: rgb(236, 241, 235);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
 #header {
     background-image: url("https://images.wallpaperscraft.com/image/lines_wavy_strip_paint_88557_1400x1050.jpg");
     background-size: cover;
