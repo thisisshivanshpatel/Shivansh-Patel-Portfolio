@@ -46,6 +46,29 @@ p {
     border-radius: 10px;
 }
 
+.typing {
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .typing-effect {
+    width: 57ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+    animation: typing 3s steps(22), effect .5s step-end infinite alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+
 #header {
     background-image: url("https://images.wallpaperscraft.com/image/lines_wavy_strip_paint_88557_1400x1050.jpg");
     background-size: cover;
