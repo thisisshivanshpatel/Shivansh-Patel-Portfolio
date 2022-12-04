@@ -49,13 +49,14 @@ p {
 .typing {
     /* height: 80vh; */
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
   }
   .typing-effect {
     width: 57ch;
     white-space: nowrap;
-    overflow: hidden;
+    overflow:scroll;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 20px;
